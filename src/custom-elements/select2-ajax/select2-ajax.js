@@ -1,6 +1,5 @@
-﻿import {inject, customElement, bindable} from 'aurelia-framework';
+﻿import {inject, customElement, bindable, Http} from 'aurelia-framework';
 import $ from 'jquery';
-import {Http} from 'service';
 
 import 'select2/select2/css/select2.css!';
 import '../select2_custom.css!';
